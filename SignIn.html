@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <div class="container background h-[1100px]">
+        <div class="logo">
+            <img src="img/logo.png" class="w-[250px] -mt-5">
+        </div>
+        <div class="login w-1/3 bg-[rgba(0,0,0,0.6)] h-[600px] mx-auto -mt-8">
+            <div class="main p-14">
+                <p class="text-3xl text-white">Sign In</p>
+                <input type="text" class="h-12 rounded-md w-full mt-10 px-5 bg-[rgba(255,255,255,0.1)]"
+                    placeholder="Email or phone number">
+                <input type="password" class="h-12 rounded-md w-full mt-3 px-5 bg-[rgba(255,255,255,0.1)]"
+                    placeholder="Password">
+                <input type="button" class="h-12 rounded-md w-full mt-12 px-5 bg-red-600 text-white" value="Sign In">
+                <div class="text-[rgba(255,255,255,0.5)] text-sm mt-2 flex justify-between">
+                    <div class="checkbox">
+                        <input type="checkbox" class="bg-[rgba(255,255,255,0.5)]" name="remeber">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <div class="help">
+                        <p>Need help?</p>
+                    </div>
+                </div>
+                <div class="flex mt-16">
+                    <p class="text-[rgba(255,255,255,0.5)]">
+                        New to Netflix?
+                    </p>
+                    <a href="index.html" class="text-white ml-2">Sign up now.</a>
+                </div>
+                <div class="text-sm mt-4">
+                    <p class="text-[rgba(255,255,255,0.5)]">This page is protected by Google reCAPTCHA to ensure you're
+                        not a bot.
+                        <span class="text-blue-500">Learn More</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer h-72 bg-[rgba(0,0,0,0.6)] mt-[102px]">
+            <div class="w-3/4 pt-8 mx-auto text-[rgba(255,255,255,0.4)]">
+                <p class="text-[rgba(255,255,255,0.4)]">Questions? Call 000-800-040- 1843</p>
+                <div class="row flex mt-7 text-sm">
+                    <div class="col w-1/4">
+                        <p class="pb-2 hover:underline cursor-pointer">FAQ</p>
+                        <p class="pb-2 hover:underline cursor-pointer">Cookie Preferences</p>
+                    </div>
+                    <div class="col w-1/4">
+                        <p class="pb-2 hover:underline cursor-pointer">Help Center</p>
+                        <p class="pb-2 hover:underline cursor-pointer">Corporate Information</p>
+                    </div>
+                    <div class="col w-1/4">
+                        <p class="pb-2 hover:underline cursor-pointer">Terms of Use</p>
+                    </div>
+                    <div class="col w-1/4">
+                        <p class="pb-2 hover:underline cursor-pointer">Privacy</p>
+                    </div>
+                </div>
+                <button
+                    class="lang bg-transparent border-[rgba(255,255,255,0.4)] border text-[rgba(255,255,255,0.4)] px-8 py-2 rounded-sm my-6">
+                    <select name="lang" class="bg-transparent">
+                        <option value="English" class="text-black bg-black">English</option>
+                        <option value="Hindi" class="text-black bg-black">Hindi</option>
+                    </select>
+                </button>
+            </div>
+        </div>
+</body>
+
+</html>
